@@ -1,0 +1,7 @@
+license
+
+groupadd mysql           
+useradd -g mysql mysql           
+autoreconf --force --install
+libtoolize --automake --force
+automake --force --add-missing
